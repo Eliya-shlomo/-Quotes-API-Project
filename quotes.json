@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "philosopher": "Socrates",
+        "quote": "The only true wisdom is in knowing you know nothing."
+    },
+    {
+        "id": 2,
+        "philosopher": "Aristotle",
+        "quote": "It is the mark of an educated mind to be able to entertain a thought without accepting it."
+    },
+    {
+        "id": 4,
+        "philosopher": "nietzsche",
+        "quote": "That which does not kill us makes us stronger"
+    },
+    {
+        "id": 5,
+        "philosopher": "nietzsche",
+        "quote": "The individual has always had to struggle to keep from being overwhelmed by the trib"
+    }
+]
