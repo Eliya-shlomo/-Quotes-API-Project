@@ -1,16 +1,11 @@
-# 1. נשתמש בתמונה הבסיסית של Python 3.9
 FROM python:3.9-slim
 
-# 2. נעתיק את קבצי האפליקציה לתוך התמונה
 WORKDIR /app
 COPY . /app
 
-# 3. נתקין את כל התלויות (ספריות)
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# 4. נחשוף את הפורט שהאפליקציה רצה עליו (8000)
 EXPOSE 8000
 
-# 5. פקודת הרצה (ENTRYPOINT) להרצת uvicorn
 CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
